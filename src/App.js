@@ -8,7 +8,7 @@ import "./styles.css";
 
 export default function App() {
 	const [route, setRoute] = useState("home");
-
+	//sdvsdvbsdv
 	return (
 		<div className="App">
 			<NavComponent setRoute={setRoute} />
