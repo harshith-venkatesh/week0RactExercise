@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap|Cedarville+Cursive");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #3b82f6;
+  --light-grey: #6b7280;
+  --dark-grey: #4b5563;
+  --lighter-grey: #e5e7eb;
+}
+
+body {
+  font-family: "Montserrat", "sans-serif";
+  margin: 0px;
+  background-color: #eff6ff;
+}
+
+.container {
+  padding: 0rem 2rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+/** link **/
+
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0rem;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 0.1rem solid var(--primary-color);
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  font-family: "Cedarville Cursive", cursive;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.linkButton {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: rgb(14, 77, 172);
+  color: white;
+  font-weight: 700;
+}
+
+.button:disabled {
+  background-color: rgb(64, 64, 75);
+  color: white;
+}
