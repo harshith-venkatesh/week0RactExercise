@@ -7,18 +7,18 @@ import { Toast } from "./components/Toast";
 import "./styles.css";
 
 export default function App() {
-  const [route, setRoute] = useState("home");
+	const [route, setRoute] = useState("home");
 
-  return (
-    <div className="App">
-      <NavComponent setRoute={setRoute} />
-      {route === "home" && (
-        <div style={{ textAlign: "center" }}>
-          <Exercises />
-        </div>
-      )}
-      {route === "figma" && <SmallFigma />}
-      {route === "toast" && <Toast />}
-    </div>
-  );
+	return (
+		<div className="App">
+			<NavComponent setRoute={setRoute} />
+			{route === "home" && (
+				<div style={{ textAlign: "center" }}>
+					<Exercises />
+				</div>
+			)}
+			{route === "figma" && <SmallFigma />}
+			{route === "toast" && <Toast />}
+		</div>
+	);
 }
